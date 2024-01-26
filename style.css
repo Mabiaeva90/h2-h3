@@ -1,0 +1,64 @@
+/* ul{
+    list-style: none;
+}
+
+ul li a{
+    color: purple;
+    text-decoration: none;
+    line-height: 200px;
+} */
+
+
+
+.box1{
+    width: 500px;
+  
+    height: 100px;
+    border: 1px solid darkblue;
+    color: black;
+}
+
+.box2{
+    width: 500px;
+    border: 2px solid darkblue;
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box3{
+    width: 500px;
+    height: 300px;
+    border: 2px solid darkblue;
+    color: black;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li:last-child{
+    border-right: none;
+}
+
+ul li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    background-color: aliceblue;
+    color: crimson;
+    text-decoration: underline;
+}
+
